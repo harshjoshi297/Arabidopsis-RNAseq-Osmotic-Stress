@@ -1,0 +1,32 @@
+# Raw sequencing data
+raw_data/
+
+# Alignment files
+alignment/
+
+# Quality control outputs
+qc/
+
+# Count files (can be regenerated)
+counts/
+
+# Temporary files
+*.log
+*.tmp
+*.lock
+*.prf
+
+# Large sequencing files
+*.fastq
+*.fq
+*.sam
+*.bam
+*.bai
+*.sra
+
+# R files
+.Rhistory
+.RData
+
+# macOS/Linux
+.DS_Store
